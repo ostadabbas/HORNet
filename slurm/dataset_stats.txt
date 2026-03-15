@@ -1,0 +1,138 @@
+
+============================================================
+  MSRVTT-QA
+============================================================
+  train: 158581 QA pairs
+  val: 12278 QA pairs
+  test: 72821 QA pairs
+
+  Total QA pairs : 243680
+  Unique videos  : 10000
+
+  Scanning videos in ./train_data/MSRVTT-QA/video ...
+  MSRVTT videos: 100%|████████████████████████████████████████████| 10000/10000 [03:02<00:00, 54.87it/s]
+  Duration (sec):
+    min=10.00  max=30.67  mean=15.52  median=13.67  std=5.07
+    p25=11.67  p75=17.67  p95=26.67
+  Width (px):
+    min=298.00  max=298.00  mean=298.00  median=298.00  std=0.00
+    p25=298.00  p75=298.00  p95=298.00
+  Height (px):
+    min=224.00  max=224.00  mean=224.00  median=224.00  std=0.00
+    p25=224.00  p75=224.00  p95=224.00
+  Question length (words):
+    min=2.00  max=26.00  mean=7.35  median=6.00  std=3.44
+    p25=5.00  p75=9.00  p95=14.00
+  Answer length (words):
+    min=1.00  max=1.00  mean=1.00  median=1.00  std=0.00
+    p25=1.00  p75=1.00  p95=1.00
+
+  Top-10 question types (first word):
+    what           : 166998
+    who            : 67416
+    how            : 6051
+    when           : 2409
+    where          : 806
+
+============================================================
+  MSVD-QA
+============================================================
+  MSVD train: 100%|█████████████████████████████████████████████████████████████| 11/11 [00:32<00:00,  2.97s/it]
+  train: 30933 QA pairs, 1161 unique videos
+  MSVD val: 100%|█████████████████████████████████████████████████████████████████| 3/3 [00:08<00:00,  2.92s/it]
+  val: 6415 QA pairs, 245 unique videos
+  MSVD test: 100%|████████████████████████████████████████████████████████████████| 5/5 [00:22<00:00,  4.46s/it]
+  test: 13157 QA pairs, 504 unique videos
+
+  Total QA pairs : 50505
+  Unique videos  : 1910
+  Duration (sec) [estimated at 29.97fps]:
+    min=2.00  max=48.00  mean=9.62  median=8.00  std=5.99
+    p25=6.00  p75=11.00  p95=21.00
+  Width (px):
+    min=160.00  max=1920.00  mean=592.26  median=480.00  std=348.09
+    p25=320.00  p75=640.00  p95=1280.00
+  Height (px):
+    min=112.00  max=1080.00  mean=387.78  median=360.00  std=180.53
+    p25=240.00  p75=480.00  p95=720.00
+  Question length (words):
+    min=2.00  max=21.00  mean=6.62  median=6.00  std=2.44
+    p25=5.00  p75=8.00  p95=11.00
+  Answer length (words):
+    min=1.00  max=1.00  mean=1.00  median=1.00  std=0.00
+    p25=1.00  p75=1.00  p95=1.00
+
+  Top-10 question types (first word):
+    what           : 31629
+    who            : 17199
+    how            : 1291
+    when           : 270
+    where          : 116
+
+============================================================
+  NExT-QA
+============================================================
+  train: 34132 QA pairs
+  val: 4996 QA pairs
+  test: 8564 QA pairs
+
+  Total QA pairs : 47692
+  Unique videos  : 5440
+
+  Scanning videos ...
+  NExT-QA videos: 100%|█████████████████████████████████████████████████████| 5440/5440 [06:20<00:00, 14.31it/s]
+  Duration (sec):
+    min=5.51  max=180.01  mean=43.65  median=36.90  std=24.90
+    p25=24.45  p75=60.02  p95=89.99
+  Width (px):
+    min=160.00  max=640.00  mean=596.50  median=640.00  std=99.55
+    p25=640.00  p75=640.00  p95=640.00
+  Height (px):
+    min=120.00  max=1138.00  mean=436.32  median=375.00  std=160.29
+    p25=360.00  p75=480.00  p95=640.00
+  Question length (words):
+    min=3.00  max=28.00  mean=11.78  median=12.00  std=4.11
+    p25=9.00  p75=15.00  p95=19.00
+  Answer length (words):
+    min=1.00  max=9.00  mean=2.70  median=3.00  std=1.44
+    p25=1.00  p75=4.00  p95=5.00
+
+  Question category distribution:
+    Causal         :  25053 (52.5%)
+    Descriptive    :   7596 (15.9%)
+    Temporal       :  15043 (31.5%)
+
+  Top-10 question types (first word):
+    why            : 18799
+    what           : 14354
+    how            : 11257
+    where          : 2933
+    who            : 146
+    which          : 70
+    is             : 23
+    judging        : 20
+    did            : 19
+    in             : 15
+
+============================================================
+  COMBINED DATASET SUMMARY
+============================================================
+
+  Dataset             Videos     QA pairs
+  ----------------------------------------
+  MSRVTT-QA           10,000      243,680
+  MSVD-QA              1,910       50,505
+  NExT-QA              5,440       47,692
+  ----------------------------------------
+  TOTAL               17,350      341,877
+
+  Combined video duration (sec):
+    min=2.00  max=180.01  mean=23.69  median=15.67  std=19.96
+    p25=11.67  p75=27.00  p95=73.44
+    Total video time: 114.2 hours
+  Combined question length (words):
+    min=2.00  max=28.00  mean=7.86  median=7.00  std=3.77
+    p25=5.00  p75=10.00  p95=16.00
+  Combined answer length (words):
+    min=1.00  max=9.00  mean=1.24  median=1.00  std=0.80
+    p25=1.00  p75=1.00  p95=3.00

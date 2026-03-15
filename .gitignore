@@ -48,3 +48,14 @@ Thumbs.db
 *.mov
 *.wmv
 
+checkpoints*
+train_data
+videoprism
+check_invent
+check_invent.cpp
+*.err
+*.out
+obselete
+env_hornet
+__pycache__
+lmms-eval/
