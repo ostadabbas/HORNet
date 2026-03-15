@@ -1,5 +1,8 @@
 # HORnet: Hierarchical Optimized Representation Network
 
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/bishoygaloaa/HORnet)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Checkpoints-yellow)](https://drive.google.com) *(Coming Soon)*
+
 **HORnet** is a reinforcement learning-based frame selection system for efficient video understanding. It uses GRPO (Group Relative Policy Optimization) to train a policy network that intelligently selects the most informative frames from videos, achieving up to 99% frame reduction and 93% faster processing with competitive accuracy on video question answering tasks.
 
 ## Overview
@@ -34,6 +37,35 @@ git clone https://github.com/EvolvingLMMs-Lab/lmms-eval.git
 cd lmms-eval
 pip install -e .
 ```
+
+## Model Weights
+
+Pre-trained HORnet checkpoints are available on Hugging Face:
+
+🤗 **[bishoygaloaa/HORnet](https://huggingface.co/bishoygaloaa/HORnet)**
+
+### Download Checkpoints
+
+```bash
+# Install huggingface_hub
+pip install huggingface_hub
+
+# Download all checkpoints
+huggingface-cli download bishoygaloaa/HORnet --local-dir ./checkpoints --repo-type model
+
+# Or download specific checkpoints
+huggingface-cli download bishoygaloaa/HORnet checkpoints/long/checkpoint-0.1500.pt --local-dir ./checkpoints --repo-type model
+```
+
+### Available Checkpoints
+
+| Checkpoint | Training Scheme | Use Case | Path |
+|------------|----------------|----------|------|
+| `checkpoint-0.1500.pt` | Long videos | **Main model** (used in lmms-eval) | `checkpoints/long/` |
+| `checkpoint-0.250.pt` | Long videos | Multiple-choice QA evaluation | `checkpoints/long/` |
+| `checkpoint-0.550.pt` | Short videos | Short video QA (MSVD), VLM ablation | `checkpoints/short/` |
+
+**Alternative:** Checkpoints will also be available on Google Drive *(Coming Soon)*
 
 ## Training
 
