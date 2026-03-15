@@ -225,7 +225,7 @@ If you use HORnet in your research, please cite:
 ```bibtex
 @article{bai2026hornet,
   title={HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models},
-  author={Xiangyu Bai, Bishoy Galoaa, and Sarah Ostadabbas},
+  author={Xiangyu Bai*, Bishoy Galoaa*, and Sarah Ostadabbas},
   booktitle={arxiv preprint},
   year={2026}
 }
