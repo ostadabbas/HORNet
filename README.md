@@ -1,5 +1,6 @@
-# HORnet: Hierarchical Optimized Representation Network
+# HORnet: Task-Guided Frame Selection for Video Question Answering
 
+[![arXiv](https://img.shields.io/badge/arXiv-2603.18850-b31b1b.svg)](https://arxiv.org/abs/2603.18850)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/bishoygaloaa/HORnet)
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-Checkpoints-yellow)](https://drive.google.com) *(Coming Soon)*
 
@@ -258,7 +259,7 @@ If you use HORnet in your research, please cite:
 @article{bai2026hornet,
   title={HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models},
   author={Xiangyu Bai*, Bishoy Galoaa*, and Sarah Ostadabbas},
-  booktitle={arxiv preprint},
+  journal={arXiv preprint arXiv:2603.18850},
   year={2026}
 }
 ```
