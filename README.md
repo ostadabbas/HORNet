@@ -256,11 +256,12 @@ hornet/
 If you use HORnet in your research, please cite:
 
 ```bibtex
-@article{bai2026hornet,
-  title={HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models},
-  author={Xiangyu Bai*, Bishoy Galoaa*, and Sarah Ostadabbas},
-  journal={arXiv preprint arXiv:2603.18850},
-  year={2026}
+@inproceedings{bai2026hornet,
+  title     = {HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models},
+  author    = {Bai, Xiangyu and Galoaa, Bishoy and Ostadabbas, Sarah},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  month={6},  
+  year      = {2026}
 }
 ```
 
